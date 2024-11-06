@@ -55,8 +55,8 @@
     height: 200px;
     width: 20%;
     padding: 20px;
-    border-right: solid grey;
-    border-bottom: solid grey;
+    border-right: solid rgb(208, 208, 210);
+    border-bottom: solid rgb(208, 208, 210);
     border-radius: 10px;
     flex-wrap: wrap;
 }
