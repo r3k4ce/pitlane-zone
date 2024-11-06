@@ -54,9 +54,14 @@
     text-align: center;
     height: 200px;
     width: 20%;
-    color: white;
     padding: 20px;
-    background-color:#181a1b;
+    border-right: solid grey;
+    border-bottom: solid grey;
     border-radius: 10px;
     flex-wrap: wrap;
+}
+
+.card:hover {
+    border-right: solid red;
+    border-bottom: solid red;
 }
