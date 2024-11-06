@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN HEADER */
+.main-header {
+    height: 100px;
+    background-color: red;
+    /* FLEX */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    padding-left: 50px;
+}
+
+/* NAV */
+.nav {
+    list-style: none;
+    font-size: x-large;
+    padding-right: 50px;
+    /* FLEX */
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
