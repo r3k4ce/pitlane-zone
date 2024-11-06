@@ -16,6 +16,7 @@
 
 /* LOGO */
 .logo {
+    color: white;
     padding-left: 50px;
 }
 
@@ -36,4 +37,26 @@
 
 .menu-item:hover {
     text-decoration: underline;
+}
+
+/* MAIN BODY */
+.news-cards {
+    margin: 20px;
+    /* FLEX */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    text-align: center;
+    height: 200px;
+    width: 20%;
+    color: white;
+    padding: 20px;
+    background-color:#181a1b;
+    border-radius: 10px;
+    flex-wrap: wrap;
 }
