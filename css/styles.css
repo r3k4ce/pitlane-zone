@@ -51,6 +51,7 @@
 }
 
 .card {
+    overflow: hidden;
     text-align: center;
     height: 200px;
     width: 20%;
@@ -59,6 +60,9 @@
     border-bottom: solid rgb(208, 208, 210);
     border-radius: 10px;
     flex-wrap: wrap;
+    /* FLEX */
+    display: flex;
+    justify-content: center;
 }
 
 .card:hover {
